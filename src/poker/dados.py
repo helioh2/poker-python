@@ -35,12 +35,11 @@ def char_to_valor(char):
 
 #straight_flush2 = "8C 9C DC JC QC"
 
-def print_carta(carta):
-    for c in carta:
-        print "Valor= "+str(c.valor)+" Naipe= "+c.naipe
+def print_mao(mao):
+    for carta in mao:
+        print "Valor= ", str(carta.valor), " Naipe= ", carta.naipe
         
 #print_carta(string_to_mao(straight_flush2))
-
 '''FIM Funcoes auxiliares para testes'''
 
 
